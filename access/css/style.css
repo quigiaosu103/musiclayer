@@ -1,0 +1,172 @@
+:root {
+    --primary-color: rgb(241, 48, 109);
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.dasdboard {
+ position: fixed;
+ width: 100%;
+ margin: -20px 8px 0 -8px;
+}
+.dashboard__display {
+    justify-content: center;
+    margin: 0px 8px 0 8px;
+    background-color: rgb(222, 224, 226);
+    padding-bottom: 18px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dasboard__heading {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+.heading-status {
+    color: var(--primary-color);
+}
+
+.heading-song-name {
+    font-size: 28px;
+}
+.layer-center {
+    display: flex;
+    justify-content: center;
+}
+.dashboard__layer {
+ width: 220px;
+ height: 220px;
+ background-size: cover;
+ background-position: center;
+ border-radius: 50%;
+ 
+}
+
+.dashboard__control-bar {
+    padding: 24px 0 12px 0;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    font-size: 24px;
+    align-items: center;
+    color: rgb(84, 84, 84);
+}
+
+.repeat {
+
+}
+
+.prevous-song {
+
+}
+
+.pause {
+    color: var(--primary-color);
+    font-size: 48px;
+    display: none;
+}
+.play {
+    color: var(--primary-color);
+    font-size: 48px;
+}
+
+
+.next-song {
+
+}
+
+.forward-song {
+
+}
+
+
+.dashboard__progress {
+    height: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+    
+}
+
+.progress{
+    width: 100%;
+    height: 8px;
+}
+.progress-scroll {
+    width: 12px;
+    height: 8px;
+}
+
+.play-list {
+    padding-top: 450px;
+}
+.play-list__song {
+    height: 62px;
+    background-color: rgb(225, 218, 218);
+    margin: 0 12px 12px 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+
+.play-list__song.active{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+.song-layer {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: 12px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.song-detail {
+    padding-left: 12px;
+    flex: 1;
+}
+
+.song-detail__name {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.song-detail__more {
+    margin: 0;
+    font-size: 12px;
+}
+.play-list__more{
+    color: aqua;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.first-song__more-detail {
+
+}
+
+.active {
+    color: var(--primary-color);
+}
+.option {
+   padding-right: 8px;
+   padding-left: 8px;
+   margin-right: 18px;
+   text-justify: center;
+}
