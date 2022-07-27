@@ -16,6 +16,7 @@ const previousSongBtn= $('.prevous-song');
 const headingName= $('.heading-song-name');
 const randomSongBtn= $('.forward-song');
 const replayBtn= $('.repeat');
+const i=1;
 
 
 const app= {
