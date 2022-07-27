@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="access/css/style.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="access/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Texturina&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- dashboard -->
+    <div class="dasdboard">
+        <!-- heading -->
+        <div class="dashboard__display">
+
+            <div class="dasboard__heading">
+                <pan class="heading-status">Now Playing</pan>
+                <h3 class="heading-song-name"></h3>
+            </div>
+            <!-- dvd -->
+            <div class="layer-center">
+                <div class="dashboard__layer" style="background-image: url('./access/img/song5.jpg')"></div>
+            </div>
+    
+            <!-- control bar -->    
+            <div class="dashboard__control-bar">
+                <div class="repeat">
+                    <i class='fa-solid fa-rotate-left'></i>
+                </div>
+
+                <div class="prevous-song">
+                    <i class=" fa-solid fa-backward-step"></i>
+                </div>
+
+                <div class="play">
+                    <i class="play fa-solid fa-circle-play"></i>
+                </div>
+                
+                <div class="pause">
+                    <i class="pause fa-solid fa-circle-pause"></i>
+                </div>
+                
+                <div class="next-song">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+            
+                <div class="forward-song">
+                    <i class="fa-solid fa-shuffle"></i>
+
+                </div>
+        </div>
+        <div class="dashboard__progress">
+            <input type="range" class="progress" value="1" step="1" min="0" max="1000">
+        </div>
+        
+        </div>
+        <audio id="audio" src=""></audio>
+    </div>
+    <!-- play list -->
+    <div class="play-list">
+        
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+
